@@ -1,10 +1,16 @@
 import React from 'react';
+import Buttons from '../components/Buttons';
+import Navigation from '../components/Navigation';
 
 const Project2 = () => {
     return (
-        <div>
-            <h1>Projet 2</h1>
-        </div>
+        <main>
+            <div className="project">
+                <Navigation />
+                <h1>Projet 2</h1>
+                <Buttons left={"/projet-1"} right={"/projet-3"}></Buttons>
+            </div>
+        </main>
     );
 };
 
