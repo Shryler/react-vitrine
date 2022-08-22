@@ -2,5 +2,17 @@
     background-image: url(../../../public/img/bgFooter.png);
     background-repeat: repeat-x;
     background-color: transparent !important;
-    height: 35px;
+    height: 45px;
+    justify-content: center;
+}
+
+.logoRS a, a:visited {
+    position: relative;
+    top: 5px;
+    padding: 0 10px;
+    // color: white !important;
+    transition: 0.3s ease;
+}
+.logoRS a:hover {
+    color: rgb(226, 226, 226) !important;
 }

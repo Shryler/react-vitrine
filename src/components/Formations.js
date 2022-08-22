@@ -11,7 +11,7 @@ const Formations = () => {
         </div>
         <div className="content-module">
         {formation.map((formation) => (
-          <ul key={formation.id} className="content">
+          <ul key={formation.id} className="content d-block">
             <img src={formation.logo} alt="" srcSet="" />
             <li>
               <em>{formation.date}</em>

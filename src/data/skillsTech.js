@@ -4,7 +4,7 @@ export const skillsTech = [
     language: "HTML5 - CSS3",
     img: "../img/htmlcss.png",
     progressBar: "85",
-    library: "Bootstrap"
+    library: "Sass, Bootstrap"
   },
   {
     id: 2,
