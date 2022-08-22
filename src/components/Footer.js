@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Footer = () => {
     return (
         <div>
-            <Navbar expand="dark" bg="dark" fixed="bottom" className='footer'></Navbar>
+            <Navbar expand="dark" bg="dark" fixed="bottom" className='modFooter'></Navbar>
         </div>
     );
 };
