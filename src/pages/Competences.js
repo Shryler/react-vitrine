@@ -1,15 +1,16 @@
 import React from "react";
 import Buttons from "../components/Buttons";
+import Competences from "../components/Competences";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
-const Competences = () => {
+const Skills = () => {
   return (
     <div>
       <main>
         <div className="project">
           <Navigation />
-          <h1>Compétences</h1>
+          <Competences />
           <Buttons left={"/experiences"} right={"/portfolio"}></Buttons>
         </div>
       </main>
@@ -18,4 +19,4 @@ const Competences = () => {
   );
 };
 
-export default Competences;
+export default Skills;

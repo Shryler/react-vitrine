@@ -1,15 +1,16 @@
 import React from "react";
 import Buttons from "../components/Buttons";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
-const Contact = () => {
+const Contactme = () => {
   return (
     <div>
       <main>
         <div className="project">
           <Navigation />
-          <h1>Contact</h1>
+          <Contact />
           <Buttons left={"/portfolio"}></Buttons>
         </div>
       </main>
@@ -18,4 +19,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contactme;
