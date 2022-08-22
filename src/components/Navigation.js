@@ -20,7 +20,7 @@ const Navigation = () => {
                 <NavLink to="/career" className="dropdown-item">Parcours</NavLink>
                 <NavLink to="/experiences" className="dropdown-item">Expériences</NavLink>
                 <NavLink to="/competences" className="dropdown-item">Compétences</NavLink>
-                <NavLink to="/portfolio" className="dropdown-item">Portfolio</NavLink>
+                {/* <NavLink to="/portfolio" className="dropdown-item">Portfolio</NavLink> */}
               </NavDropdown>
               <NavLink to="/contact" className="nav-link">Contact</NavLink>
             </Nav>

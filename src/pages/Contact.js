@@ -11,7 +11,7 @@ const Contactme = () => {
         <div className="project">
           <Navigation />
           <Contact />
-          <Buttons left={"/portfolio"}></Buttons>
+          <Buttons left={"/competences"}></Buttons>
         </div>
       </main>
       <Footer />

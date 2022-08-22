@@ -27,6 +27,9 @@
 
 ul.content {
     margin:1rem auto;
+    padding: 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 30px -10px;
+
 }
 .content {
     display: flex;
@@ -36,6 +39,7 @@ ul.content {
 
 .content-module {
     grid-area: content;
+    text-align: center;
 }
 
 .content img {
@@ -61,9 +65,9 @@ ul.content {
     .content-title {
         display: none;
     }
-    ul.content {
-        margin:0 auto;
-    }
+    // ul.content {
+    //     margin:0 auto;
+    // }
     .content img{
         align-self: center;
     }

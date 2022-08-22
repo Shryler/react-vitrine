@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="project">
           <Navigation />
           <Competences />
-          <Buttons left={"/experiences"} right={"/portfolio"}></Buttons>
+          <Buttons left={"/experiences"} right={"/contact"}></Buttons>
         </div>
       </main>
       <Footer />
