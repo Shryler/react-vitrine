@@ -11,7 +11,7 @@ export const skillsTech = [
     language: "Javascript",
     img: "../img/js.png",
     progressBar: "25",
-    library: "ReactJS"
+    library: "ReactJS, NodeJS"
   },
   {
     id: 3,
