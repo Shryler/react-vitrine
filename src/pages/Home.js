@@ -13,7 +13,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Buttons right={"/projet-1"} />
+            <Buttons right={"/about-me"} />
         </div>
     );
 };

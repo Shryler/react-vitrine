@@ -1,36 +1,35 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 const Navigation = () => {
     return (
-        <div className="navigation">
-            <ul>
-                <NavLink to="/" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                    <li>Accueil</li>
-                </NavLink>
-                <li className="nav-portfolio">
-                    Portfolio
-                    <ul className="nav-projects">
-                        <NavLink to="/projet-1" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                            <li>Projet 1</li>
-                        </NavLink>
-                        <NavLink to="/projet-2" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                            <li>Projet 2</li>
-                        </NavLink>
-                        <NavLink to="/projet-3" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                            <li>Projet 3</li>
-                        </NavLink>
-                        <NavLink to="/projet-4" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                            <li>Projet 4</li>
-                        </NavLink>
-                    </ul>
-                </li>
-                <NavLink to="/contact" className={(nav) => (nav.isActive) ? "nav-active hover" : "hover"}>
-                    <li>Contact</li>
-                </NavLink>
-            </ul>
-        </div>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Portfolio</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <NavLink to="/" className="nav-link">Accueil</NavLink>
+              <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
+                <NavLink to="/about-me" className="dropdown-item">A propos de moi</NavLink>
+                <NavLink to="/career" className="dropdown-item">Parcours</NavLink>
+                <NavLink to="/experiences" className="dropdown-item">Expériences</NavLink>
+                <NavLink to="/competences" className="dropdown-item">Compétences</NavLink>
+                <NavLink to="/portfolio" className="dropdown-item">Portfolio</NavLink>
+              </NavDropdown>
+              <NavLink to="/contact" className="nav-link">Contact</NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     );
 };
 
 export default Navigation;
+
+

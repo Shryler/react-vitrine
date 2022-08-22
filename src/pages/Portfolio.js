@@ -2,16 +2,16 @@ import React from 'react';
 import Buttons from '../components/Buttons';
 import Navigation from '../components/Navigation';
 
-const Project3 = () => {
+const Portfolio = () => {
     return (
         <main>
             <div className="project">
                 <Navigation />
-                <h1>Projet 3</h1>
-                <Buttons left={"/projet-2"} right={"/projet-4"}></Buttons>
+                <h1>Portfolio</h1>
+                <Buttons left={"/competences"} right={"/contact"}></Buttons>
             </div>
         </main>
     );
 };
 
-export default Project3;
+export default Portfolio;
