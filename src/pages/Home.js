@@ -1,6 +1,7 @@
 import React from 'react';
 import Buttons from '../components/Buttons';
 import Navigation from '../components/Navigation';
+import FTypewriter from '../components/TypeWriter';
 
 const Home = () => {
     return (
@@ -9,7 +10,8 @@ const Home = () => {
                 <Navigation></Navigation>
                 <div className="home-main">
                     <div className="main-content">
-                        <h1>NOM DU SITE</h1>
+                        <h1 className='text-center'>Bonjour,</h1>
+                        <FTypewriter></FTypewriter>
                     </div>
                 </div>
             </div>
