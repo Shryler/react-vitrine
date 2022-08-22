@@ -2,6 +2,7 @@ import React from 'react';
 import Buttons from '../components/Buttons';
 import Navigation from '../components/Navigation';
 import FTypewriter from '../components/TypeWriter';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 </div>
             </div>
             <Buttons right={"/about-me"} />
+            <Footer></Footer>
         </div>
     );
 };

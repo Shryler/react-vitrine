@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="project">
                 <Navigation />
                 <h1>Contact</h1>
-                <Buttons left={"/projet-4"}></Buttons>
+                <Buttons left={"/portfolio"}></Buttons>
             </div>
         </main>
     );

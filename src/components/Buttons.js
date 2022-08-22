@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Buttons = (props) => {
     return (
-        <div className='scroll-bottom'>
+        <div className='scroll-bottom Container'>
             {props.left && (
             <NavLink to={props.left} className='left hover'>
                 <span>&#10092;</span>

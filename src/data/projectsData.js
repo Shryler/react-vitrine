@@ -1,13 +1,11 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "A propos de moi",
+    subtitle: "Qui suis-je ?",
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
+    img: "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 2,
