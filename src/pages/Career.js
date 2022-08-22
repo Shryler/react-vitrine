@@ -1,6 +1,7 @@
 import React from "react";
 import Buttons from "../components/Buttons";
 import Footer from "../components/Footer";
+import Formations from "../components/Formations";
 import Navigation from "../components/Navigation";
 
 const Career = () => {
@@ -9,7 +10,7 @@ const Career = () => {
       <main>
         <div className="project">
           <Navigation />
-          <h1>Carrière</h1>
+          <Formations></Formations>
           <Buttons left={"/about-me"} right={"/experiences"}></Buttons>
         </div>
       </main>

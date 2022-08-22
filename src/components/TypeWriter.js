@@ -14,7 +14,7 @@ function FTypewriter() {
        
        .typeString("Je suis Anthony VOITURON")
        .pauseFor(1000)
-       .deleteAll()
+       .deleteChars(16)
        .typeString("Développeur Web/Web mobile")
        .start();
        }}
