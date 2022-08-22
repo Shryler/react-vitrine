@@ -2,14 +2,15 @@ import React from "react";
 import Buttons from "../components/Buttons";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
+import Experiences from "../components/Experiences";
 
-const Experiences = () => {
+const Experiency = () => {
   return (
     <div>
       <main>
         <div className="project">
           <Navigation />
-          <h1>Expériences</h1>
+          <Experiences />
           <Buttons left={"/career"} right={"/competences"}></Buttons>
         </div>
       </main>
@@ -18,4 +19,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default Experiency;

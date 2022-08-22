@@ -5,13 +5,13 @@ import { formation } from "../data/formation";
 const Formations = () => {
   return (
     <Container>
-      <div className="container-formation">
-        <div className="formation-title">
-          <h1>Formation</h1>
+      <div className="container-content">
+        <div className="content-title">
+          <h1>Parcours</h1>
         </div>
-        <div className="formation-module">
+        <div className="content-module">
         {formation.map((formation) => (
-          <ul key={formation.id} className="formation">
+          <ul key={formation.id} className="content">
             <img src={formation.logo} alt="" srcSet="" />
             <li>
               <em>{formation.date}</em>
