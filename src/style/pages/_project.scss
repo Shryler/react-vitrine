@@ -45,7 +45,7 @@
     }
   }
   .project-main {
-    margin: 8rem 1rem 0;
+    margin: 12rem 1rem 0;
     display: grid;
     grid-template-columns: 33% 67%;
     position: relative;
@@ -260,5 +260,6 @@
   }
   .project .project-main {
     display: block;
+    margin: 2rem auto;
   }
 }
